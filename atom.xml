@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.chenzhikai.com/"/>
-  <updated>2016-12-30T06:16:25.912Z</updated>
+  <updated>2017-01-03T15:11:04.529Z</updated>
   <id>http://www.chenzhikai.com/</id>
   
   <author>
@@ -14,6 +14,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Test post</title>
+    <link href="http://www.chenzhikai.com/posts/uncategorized/2017-01-03-Test-post.html"/>
+    <id>http://www.chenzhikai.com/posts/uncategorized/2017-01-03-Test-post.html</id>
+    <published>2017-01-03T15:11:04.000Z</published>
+    <updated>2017-01-03T15:11:04.529Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
