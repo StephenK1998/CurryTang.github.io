@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.chenzhikai.com/"/>
-  <updated>2017-01-25T13:59:04.544Z</updated>
+  <updated>2017-01-25T14:01:08.802Z</updated>
   <id>http://www.chenzhikai.com/</id>
   
   <author>
@@ -16,14 +16,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>Fluent Python Note Tip1:字典（上）</title>
     <link href="http://www.chenzhikai.com/posts/uncategorized/2017-01-25-Python%20Tips%20every%20day(Fluent%20Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0).html"/>
     <id>http://www.chenzhikai.com/posts/uncategorized/2017-01-25-Python Tips every day(Fluent Python学习笔记).html</id>
     <published>2017-01-25T13:56:18.015Z</published>
-    <updated>2017-01-25T13:59:04.544Z</updated>
+    <updated>2017-01-25T14:01:08.802Z</updated>
     
-    <content type="html"><![CDATA[<hr>
-<h2 id="title-Fluent-Python-Note-Tip1-字典（上）"><a href="#title-Fluent-Python-Note-Tip1-字典（上）" class="headerlink" title="title:Fluent Python Note Tip1:字典（上）"></a>title:Fluent Python Note Tip1:字典（上）</h2><p>#Python Tips every day(Fluent Python学习笔记)</p>
+    <content type="html"><![CDATA[<p>#Python Tips every day(Fluent Python学习笔记)</p>
 <p>##Tip1:字典（上）</p>
 <p>字典可以说是Python中最常用的数据结构之一，但它也有一些不那么为人所知的奇技淫巧，掌握它们，有助于Python程序员写出更优雅、更Pythonic的代码。</p>
 <p>###<em>1.Python中映射类的继承关系</em></p>
@@ -98,8 +97,9 @@ Out[48]: True
     
     <summary type="html">
     
-      &lt;hr&gt;
-&lt;h2 id=&quot;title-Fluent-Python-Note-Tip1-字典（上）&quot;&gt;&lt;a href=&quot;#title-Fluent-Python-Note-Tip1-字典（上）&quot; class=&quot;headerlink&quot; title=&quot;title:Fluent Pyth
+      &lt;p&gt;#Python Tips every day(Fluent Python学习笔记)&lt;/p&gt;
+&lt;p&gt;##Tip1:字典（上）&lt;/p&gt;
+&lt;p&gt;字典可以说是Python中最常用的数据结构之一，但它也有一些不那么为人所知的奇技淫巧，掌握它们，有助于Python程序员写出更优雅、更P
     
     </summary>
     
