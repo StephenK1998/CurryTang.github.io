@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.chenzhikai.com/"/>
-  <updated>2017-01-31T10:24:04.572Z</updated>
+  <updated>2017-01-31T10:27:53.034Z</updated>
   <id>http://www.chenzhikai.com/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>UCB CS61A Python 并发编程入门 (Composing Programs 4.8 节) 翻译</title>
     <link href="http://www.chenzhikai.com/posts/uncategorized/2017-01-29-UCB%20CS61A%20Python%20%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8%20(Composing%20Programs%204.8%20%E8%8A%82)%20%E7%BF%BB%E8%AF%91.html"/>
     <id>http://www.chenzhikai.com/posts/uncategorized/2017-01-29-UCB CS61A Python 并发编程入门 (Composing Programs 4.8 节) 翻译.html</id>
     <published>2017-01-29T12:05:15.339Z</published>
-    <updated>2017-01-31T10:24:04.572Z</updated>
+    <updated>2017-01-31T10:27:53.034Z</updated>
     
     <content type="html"><![CDATA[<h1 id="UCB-CS61A-Python-并发编程入门-Composing-Programs-4-8-节-翻译"><a href="#UCB-CS61A-Python-并发编程入门-Composing-Programs-4-8-节-翻译" class="headerlink" title="UCB CS61A Python 并发编程入门 (Composing Programs 4.8 节) 翻译"></a>UCB CS61A Python 并发编程入门 (Composing Programs 4.8 节) 翻译</h1><hr>
 <p><em>原作地址(访问可能较慢): <a href="http://composingprograms.com/pages/48-parallel-computing.html" target="_blank" rel="external">The original version</a></em></p>
