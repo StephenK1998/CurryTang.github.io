@@ -608,11 +608,8 @@
       
         
           
-            <p>#Python Tips every day(Fluent Python学习笔记)</p>
-<p>##Tip1:字典（上）</p>
-<p>字典可以说是Python中最常用的数据结构之一，但它也有一些不那么为人所知的奇技淫巧，掌握它们，有助于Python程序员写出更优雅、更Pythonic的代码。</p>
-<p>###<em>1.Python中映射类的继承关系</em></p>
-<p>Python中的映射类从Container, Iterable, Sized三个接口继承而来，最基本的映射类为Mapping类(Abstract Class)，它实现了__getitem__ , get, keys, items等方法， 再接下来派生出了MutableMapping类，我们常用的dict便隶属于此。</p>
+            <h1 id="Python-Tips-every-day-Fluent-Python学习笔记"><a href="#Python-Tips-every-day-Fluent-Python学习笔记" class="headerlink" title="Python Tips every day(Fluent Python学习笔记)"></a>Python Tips every day(Fluent Python学习笔记)</h1><h2 id="Tip1-字典（上）"><a href="#Tip1-字典（上）" class="headerlink" title="Tip1:字典（上）"></a>Tip1:字典（上）</h2><p>字典可以说是Python中最常用的数据结构之一，但它也有一些不那么为人所知的奇技淫巧，掌握它们，有助于Python程序员写出更优雅、更Pythonic的代码。</p>
+<h3 id="1-Python中映射类的继承关系"><a href="#1-Python中映射类的继承关系" class="headerlink" title="1.Python中映射类的继承关系"></a><em>1.Python中映射类的继承关系</em></h3><p>Python中的映射类从Container, Iterable, Sized三个接口继承而来，最基本的映射类为Mapping类(Abstract Class)，它实现了__getitem__ , get, keys, items等方法， 再接下来派生出了MutableMapping类，我们常用的dict便隶属于此。</p>
 <pre>
 <code>
 In [29]: Mapping.__dict__.keys()
@@ -632,8 +629,7 @@ Out[30]:
 </code>
 </pre>
 
-<p>###<em>2.字典的键</em></p>
-<p>什么样的值都能当作字典的键吗？Absolutely Not. Python规定Hashable Objects必须实现__hash__与__eq__这两个通用接口。简单的来说，必须是运行时不可变的值。废话少说，来看几个例子。</p>
+<h3 id="2-字典的键"><a href="#2-字典的键" class="headerlink" title="2.字典的键"></a><em>2.字典的键</em></h3><p>什么样的值都能当作字典的键吗？Absolutely Not. Python规定Hashable Objects必须实现__hash__与__eq__这两个通用接口。简单的来说，必须是运行时不可变的值。废话少说，来看几个例子。</p>
 <pre>
 In [31]: my_dict = {}
 
@@ -652,9 +648,7 @@ In [37]: key6 = set(3,4) #不可以，set unhashable, frozenset可以用作键
 </pre>
 
 <p>一句话来总结一下，“All of Python’s immutable built-in objects are hashable”  (Cited from Python Glossary)</p>
-<p>###3. 构造字典（创建一个字典的n种方法）</p>
-<p>####1. 重载的构造函数dict()</p>
-<pre>
+<h3 id="3-构造字典（创建一个字典的n种方法）"><a href="#3-构造字典（创建一个字典的n种方法）" class="headerlink" title="3. 构造字典（创建一个字典的n种方法）"></a>3. 构造字典（创建一个字典的n种方法）</h3><h4 id="1-重载的构造函数dict"><a href="#1-重载的构造函数dict" class="headerlink" title="1. 重载的构造函数dict()"></a>1. 重载的构造函数dict()</h4><pre>
 In [43]: dict1 = dict(a = 1, b = 2)
 
 In [44]: dict2 = {'a':1, 'b':2}
@@ -672,7 +666,7 @@ Out[48]: True
 </pre>
 
 <p>Notes:[1]Find more information about zip(): <a href="https://docs.python.org/3.3/library/functions.html#zip" target="_blank" rel="external">zip</a></p>
-<p>####2. 使用dict comprehension<br>类似于List Comprehesion, 字典推导式提供了一种优雅、简洁的方式来创建一个Python字典。</p>
+<h4 id="2-使用dict-comprehension"><a href="#2-使用dict-comprehension" class="headerlink" title="2. 使用dict comprehension"></a>2. 使用dict comprehension</h4><p>类似于List Comprehesion, 字典推导式提供了一种优雅、简洁的方式来创建一个Python字典。</p>
 <p>字典推导式的语法在Python2.7 以及 3 以后是这样的</p>
 <pre>d = {k:v for k, v in iterable}</pre>
 
